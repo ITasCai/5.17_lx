@@ -32,20 +32,27 @@ namespace _5._17_lx
 
             #region 数组倒叙
 
-            int[] arr = { 16,25,9,90,23};
-            for (int i = 0; i <arr.Length/2; i++)
-            {
-                int temp = arr[i];
-                arr[i] = arr[arr.Length-1-i];
-                arr[arr.Length - 1 - i] = temp;
-            }
-            foreach (int item in arr)
-            {
-                Console.Write(item +" ");
-            }
-            Console.ReadKey();
+            //int[] arr = { 16,25,9,90,23};
+            //for (int i = 0; i <arr.Length/2; i++)
+            //{
+            //    int temp = arr[i];
+            //    arr[i] = arr[arr.Length-1-i];
+            //    arr[arr.Length - 1 - i] = temp;
+            //}
+            //foreach (int item in arr)
+            //{
+            //    Console.Write(item +" ");
+            //}
+            //Console.ReadKey();
 
             #endregion
+
+
+
+            
+        }
+     
         }
     }
-}
+
+
